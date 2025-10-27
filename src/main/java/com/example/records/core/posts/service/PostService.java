@@ -9,7 +9,7 @@ import com.example.records.adapter.jsonPlaceHolder.dto.CreatePostRequest;
 import com.example.records.adapter.jsonPlaceHolder.dto.PostResponse;
 
 @Service
-public class PostService {
+public final class PostService {
   private final JsonPlaceholderAdapter jsonPlaceholderAdapter;
 
   public PostService(JsonPlaceholderAdapter jsonPlaceholderAdapter) {

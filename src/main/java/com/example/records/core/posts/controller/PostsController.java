@@ -17,7 +17,7 @@ import com.example.records.core.posts.service.PostService;
 
 @RestController
 @RequestMapping(value = "/posts", produces = "application/json")
-public class PostsController {
+public final class PostsController {
   private final PostService postService;
 
   public PostsController(PostService postService) {
